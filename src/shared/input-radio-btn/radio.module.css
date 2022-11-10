@@ -1,0 +1,16 @@
+
+.radio-btn {
+  display: none;
+}
+
+.fake {
+  border: 2px solid #E1E1ED;
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.radio-btn:checked + .fake {
+  border: 2px solid #00A896;
+}
